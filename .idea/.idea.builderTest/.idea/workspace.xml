@@ -2,53 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bf2cc6-99d6-4023-957f-392fd24a5b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/LandPiece.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/LandPiece.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/IState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/IState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandStateMachine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandStateMachine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/DirtLandState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/DirtLandState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/GrassLandState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/GrassLandState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/SeedLandState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/SeedLandState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/Enum.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/Enum/WeaponType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/Enum/WeaponType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/HoeWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/HoeWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/SeedsWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/SeedsWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeaponChanger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeaponChanger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimationEventEmitter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimationEventEmitter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Data/SeedData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Data/SeedData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/DoneLandState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/DoneLandState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/IFitterable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Infrastructure/Services/SimpleRestarter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Infrastructure/Services/SimpleRestarter.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.builderTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.builderTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic hdr ab nosp.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic hdr ab nosp.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arcs fade x4 hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric small anim 4x2 hdr.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric sparks hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire circle plain hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch fire crisp fade hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch fire crisp fade hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch ray blur hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab nosp.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait hdr ab nosp.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles hit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles hit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail bubbles.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail flames hit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail flames hit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail flames.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail flames.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice hit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice hit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice thin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice thin.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail ice.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail plain.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail plain.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail slash.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail slash.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech hit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech hit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech thin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech thin.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr sword trail tech.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water foam ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash hollow stretch nosp hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp hdr ab.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water small splash stretch nosp hdr ab.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Chilli_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonFarm/Prefabs/Plants/SM_Prop_Chilli_01.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Animations/Unit/Unit.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Animations/Unit/Unit.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Animations/Unit/Villager Animations/Animations/Work/Farming/Working.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Animations/Unit/Villager Animations/Animations/Work/Farming/Working.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Materials/DarkGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Materials/DarkGrass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/Character/Unit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/Character/Unit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/FarmLogic/PlantPiece.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/FarmLogic/PlantPiece.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/FarmLogic/LandPiece.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/FarmLogic/LandPiece.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/BuilderGameInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/BuilderGameInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitMovementAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitMovementAnimation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/LandPiece.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/LandPiece.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/DirtLandState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/DirtLandState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/GrassLandState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/GrassLandState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/SeedLandState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/SeedLandState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/HoeWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/HoeWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/SeedsWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/SeedsWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeaponChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeaponChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +76,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d38db87d7f084f5bbce6a5e45d5322014000/a8/fb25b1db/GridLayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Rotation/UnitRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5ddb5fa70dfe40d2818192400111b9ec2aa00/9a/4878ff84/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5ddb5fa70dfe40d2818192400111b9ec2aa00/38/28b894d1/Ease.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5ddb5fa70dfe40d2818192400111b9ec2aa00/ca/2a2590fe/DOTweenComponent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -99,10 +111,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22843">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="39152">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="22843" />
+      <option name="pid" value="39152" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -118,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681819312411</updated>
-      <workItem from="1681819321104" duration="12859000" />
+      <workItem from="1681819321104" duration="26181000" />
     </task>
     <servers />
   </component>
@@ -141,5 +153,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs" initialLine="37" containingFunctionPresentation="method 'TryWork'">
+            <startOffsets>
+              <option value="1607" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1664" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs</url>
+          <line>84</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs" initialLine="57" containingFunctionPresentation="method 'AnimationEventEmitter_OnTriggered'">
+            <startOffsets>
+              <option value="2634" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2719" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

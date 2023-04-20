@@ -27,14 +27,21 @@ namespace Assets._ROOT.Scripts.BuilderGame.Gameplay.Farms.Units.Weapon
 
         public virtual void Activate()
         {
+            transform.DOComplete();
             gameObject.SetActive(true);
             transform.DOScale(_cashedScale, ChangeDuration).SetEase(Ease.OutElastic);
         }
 
         public virtual void Deactivate()
         {
+            transform.DOComplete();
             transform.DOScale(0f, ChangeDuration).SetEase(Ease.InElastic)
                 .OnComplete((() => gameObject.SetActive(false)));
+        }
+
+        public virtual void PlayFx()
+        {
+            
         }
     }
 }

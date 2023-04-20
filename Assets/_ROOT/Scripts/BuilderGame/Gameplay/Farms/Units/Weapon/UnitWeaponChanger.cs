@@ -14,6 +14,8 @@ namespace Assets._ROOT.Scripts.BuilderGame.Gameplay.Farms.Units
         [SerializeField]
         private UnitWeapon[] _unitWeapons;
 
+        public UnitWeapon CurrentWeapon => _currentWeapon;
+
         public void ChangeWeapon(WeaponType changedWeaponType)
         {
             if (_currentWeapon?.WeaponType == changedWeaponType)
