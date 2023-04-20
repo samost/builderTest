@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 2364147313865530421}
   - component: {fileID: 2364147313865530419}
   - component: {fileID: 2364147313865530418}
+  - component: {fileID: 6013638138482355954}
+  - component: {fileID: 2368622748769160360}
   m_Layer: 0
-  m_Name: PlantPiece
+  m_Name: LandPiece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e9d9b1fba424c5741aa50654d3c1fb06, type: 2}
+  - {fileID: 2100000, guid: 7d2ef91204a593f40835a9b2bd1752b6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,3 +85,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6013638138482355954
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2364147313865530420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8678173, y: 3.619794, z: 0.88156605}
+  m_Center: {x: -0.005479932, y: 1.309897, z: 0.008431196}
+--- !u!114 &2368622748769160360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2364147313865530420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f11af14f49f40aab4c0b08cad106c1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

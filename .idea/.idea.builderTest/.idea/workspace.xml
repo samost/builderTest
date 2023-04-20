@@ -2,9 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bf2cc6-99d6-4023-957f-392fd24a5b9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/LandPiece.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/LandPiece.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/IState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/IState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandStateMachine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/LandStateMachine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/DirtLandState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/DirtLandState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/GrassLandState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/GrassLandState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/SeedLandState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Land/States/Types/SeedLandState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/UnitFarmController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/Enum.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/Enum/WeaponType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/Enum/WeaponType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/HoeWeapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/HoeWeapon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/SeedsWeapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/Types/SeedsWeapon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeapon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeaponChanger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Farms/Units/Weapon/UnitWeaponChanger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimationEventEmitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimationEventEmitter.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.builderTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.builderTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Animations/Unit/Unit.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Animations/Unit/Unit.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Animations/Unit/Villager Animations/Animations/Work/Farming/Working.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Animations/Unit/Villager Animations/Animations/Work/Farming/Working.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/Character/Unit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/Character/Unit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/FarmLogic/PlantPiece.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Prefabs/FarmLogic/PlantPiece.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/BuilderGameInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/BuilderGameInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitMovementAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitMovementAnimation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Animation/UnitAnimator.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +66,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d38db87d7f084f5bbce6a5e45d5322014000/a8/fb25b1db/GridLayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_ROOT/Scripts/BuilderGame/Gameplay/Unit/Rotation/UnitRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5ddb5fa70dfe40d2818192400111b9ec2aa00/38/28b894d1/Ease.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ObBGGmLT7kkqRnjEKFO3P66wxt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,10 +99,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22843">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="22843" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -70,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681819312411</updated>
-      <workItem from="1681819321104" duration="1909000" />
+      <workItem from="1681819321104" duration="12859000" />
     </task>
     <servers />
   </component>
@@ -80,6 +128,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
